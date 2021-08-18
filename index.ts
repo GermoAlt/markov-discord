@@ -174,8 +174,7 @@ function isModerator(member: Discord.GuildMember): boolean {
     member.hasPermission('ADMINISTRATOR') ||
     member.hasPermission('MANAGE_CHANNELS') ||
     member.hasPermission('KICK_MEMBERS') ||
-    member.hasPermission('MOVE_MEMBERS') ||
-    member.id === '82684276755136512' // charlocharlie#8095
+    member.hasPermission('MOVE_MEMBERS')
   );
 }
 
